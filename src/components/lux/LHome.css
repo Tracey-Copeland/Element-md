@@ -1,0 +1,188 @@
+
+
+.top-row {
+    background-image: url("../images/LUX_icon2.png"), url("../images/LUX_icon1.png") ;
+    background-position: left top, right top ;
+    background-repeat: no-repeat, no-repeat;
+    height: 750px;
+    /* border-radius: 8%; */
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+}
+
+.top-row-container{    
+    position: relative;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 500px;
+    width: 100%;
+    background-color: #BFB7B0;
+    opacity: 0.4;
+    border: 2px solid white;
+
+}
+
+.lux-logo{
+    position: relative;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+}
+
+.about-container{
+    background-color: #DCBFA6;
+    height: 600px;
+
+}
+.ar-title{
+    height: 150px;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 50px 0px;
+}
+
+.ar-title h1{
+    outline: thick double #592c22;
+}
+
+.about-row{
+    height: 450px;
+    width: 100%;
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.arow-col-left, .arow-col-right{
+    height: 310px;
+    flex: 0 0 40%;
+    /* border: 3px solid black; */
+    
+}
+
+.arow-col-left{
+    text-align: center;
+}
+
+.arow-col-left img {
+    outline: #905d3c ridge 8px;
+
+}
+
+.arow-col-right {
+    text-align: center;
+}
+
+
+.products-row-title{
+    text-align: center;
+    font-size: 2.0rem;
+    padding: 50px 0px;
+    
+}
+
+.products-row-title h1{
+    text-decoration-line: underline overline;
+    text-decoration-thickness: 3px;
+    text-decoration-style: double;
+}
+
+
+.products-row {
+    display: flex;
+    padding: 0px 50px 50px 50px;
+
+}
+
+.product-one, .product-two, .product-three{
+    flex: 0 0 30%;
+    margin:auto;
+    height: 550px;
+    background-color: #BF8F65;
+    /* border-radius: 8%; */
+    padding-top: 15px;
+    outline: #592c22 ridge 8px;
+}
+
+.pic-container{
+    display:flex ;
+    justify-content: center;
+}
+
+.pic-container img{
+    outline: #592c22 ridge 4px;
+    
+}
+
+
+.p1-desc, .p2-desc, .p3-desc{
+    padding: 15px 15px;
+    text-align: center;
+
+}
+.p1-desc p, .p2-desc p, .p3-desc p{
+    margin-top: 8px;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.p1-desc h2, .p2-desc h2, .p3-desc h2{
+    margin-top: 8px;
+    text-align: center;
+}
+
+
+.btn-row{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.btn-row button{
+    padding: 15px 32px;
+    border-radius: 8%;
+    box-shadow: 29px 6px 48px 11px rgba(89,44,34,0.49);
+    cursor: pointer;
+    font-weight:600;
+
+}
+
+.p3-btn{
+    color:white;
+    background-color: #003A40;
+}
+
+.p1-btn{
+    color:white;
+    background-color: #572D2D;
+
+}
+
+.p2-btn{
+    color:white;
+    background-color: #864A33;
+
+}
+
+.arow-col-right p{
+    font-size: 1.5rem;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+

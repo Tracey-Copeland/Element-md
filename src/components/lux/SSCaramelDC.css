@@ -1,0 +1,45 @@
+
+.page-title{
+    height: 125px;
+    text-align: center;
+    font-size: 2.0rem;
+    padding: 25px 0px;
+    margin-top: 25px;
+}
+
+.page-title h1{
+    outline: thick double #592c22;
+
+}
+
+.page-title p{
+    margin-top: 15px;
+}
+
+
+.trow {
+    width: 80%;
+    height: 650px;
+    margin:auto;
+    align-items: center;
+    display: flex;
+}
+
+.trow-left, .trow-right{
+    flex: 0 0 50%;
+}
+
+.trow-right h2, .trow-right h4, .trow-right p{
+    font-size: 1.675rem;
+    line-height: 1.5;
+}
+
+.product-pic{
+    outline: #572D2D ridge 7px;
+    box-shadow: 10px 10px 202px -27px rgba(0,0,0,0.75);
+
+}
+
+.desc-row{
+    margin: 15px 0;
+}
