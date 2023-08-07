@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useRef} from "react";
 import {useEffect} from "react";
 
 import "./CarouselHome.css";
@@ -10,12 +10,17 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 const CarouselHome = () => {
     const [currentPic, setCurrPic] = useState(0);
     const [auto, setAuto] = useState(true);
-    let timeOut= null;
+    const timeOutRef = useRef(null);
 
     useEffect (() =>{
+
+        let timeOut = timeOutRef.current;
         timeOut = auto && setTimeout(() =>{
             slideRight();
-        }, 7500)
+        }, 7500);
+
+        timeOutRef.current = timeOut;
+        
     })
 
     const slideRight = () => {
@@ -41,9 +46,13 @@ const CarouselHome = () => {
         <>
 
         <div className="carousel" 
-            onMouseEnter={() => {setAuto(false)
-                clearTimeout(timeOut)}}
-            onMouseLeave={() => setAuto(true)}
+            onMouseEnter={() => {
+                setAuto(false)
+                clearTimeout(timeOutRef);
+            }}
+            onMouseLeave={() => {
+                setAuto(true);
+            }}
             >
 
 
