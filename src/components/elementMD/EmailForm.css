@@ -1,3 +1,17 @@
+.header-row{
+    margin-top: 15px;
+}
+
+.header-row h1{
+    margin-bottom: 15px;
+}
+
+.header-row p{
+    line-height: 1.2;
+    font-size: 1.2rem;
+}
+
+
 .name-row {
     display: flex;
     margin-top: 25px;
@@ -24,12 +38,14 @@ input[type=text], input[type=email], textarea {
     padding: 12px;
     border-radius: 4px;
     resize: vertical;
+    max-height: 150px ;
     margin-top: 6px;
     margin-bottom: 12px;
 
 }
 
 input[type=submit]{
+    margin-top: 10px;
     background-color:#BF8F65 ;
     padding: 12px 20px;
     /* border: 1px solid black; */
