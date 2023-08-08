@@ -10,7 +10,11 @@ const ContactUs = () => {
     return (
         <>
             <div className='form-container'>
-            <EmailForm/>
+                <div className="white-space">
+
+                </div>
+                
+                <EmailForm/>
             </div>
         </>
     );

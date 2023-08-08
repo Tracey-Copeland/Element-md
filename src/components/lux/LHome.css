@@ -105,7 +105,7 @@
 .product-one, .product-two, .product-three{
     flex: 0 0 30%;
     margin:auto;
-    height: 550px;
+    height: 580px;
     background-color: #BF8F65;
     /* border-radius: 8%; */
     padding-top: 15px;

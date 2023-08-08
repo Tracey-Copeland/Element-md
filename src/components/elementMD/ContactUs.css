@@ -1,4 +1,10 @@
 .form-container{
-    height: 500px;
+    height: 600px;
     width: 100%;
+    display: flex;
+}
+
+.white-space{
+    height:100%;
+    width:40%;
 }
