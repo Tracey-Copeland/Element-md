@@ -1,0 +1,150 @@
+
+.modal{
+
+    z-index: 10043;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.welcome-container{
+    margin: 25px 5%;
+    width:90%;
+    height: 600px;
+    box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
+    display: flex;
+    outline: ridge 4px;
+
+}
+
+.welcome-container-left{
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.wel-cont-l-top{
+    background-color:#DCBFA6;
+    text-align: center;
+    flex: 0 0 50%;
+    font-size:x-large;
+    padding: 10px 20px;
+    /* display: flex;
+    flex-direction: column; */
+
+}
+
+.wel-cont-l-top img{
+    margin: 20px 0px;
+    box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
+
+}
+
+
+
+.wel-cont-l-bottom{
+    padding-top: 40px;
+    text-align: center;
+    font-size:x-large;
+    color:#BF8F65;
+    background-color: #592c22;
+    flex: 0 0 50%;
+    
+}
+
+.wel-cont-l-bottom p{
+    padding: 20px;
+}
+
+
+
+.welcome-container-right{
+    flex: 0 0 50%;
+
+}
+
+.buttn-row button{
+    color:#592c22;
+    outline: #BF8F65 ridge 2px;
+    background-color: #DCBFA6;
+    margin: 20px;
+    box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
+    padding: 15px 32px;
+    font-weight:600;
+}
+
+.whatdowedo-row{
+    padding: 50px 0;
+    background-color: #BF8F65;
+    margin: 25px 0px;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.whatdowedo-row img{
+    box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
+    outline: #592c22 ridge 4px;
+}
+
+.whatdo-center{
+    height: 450px;
+    width:45%;
+    padding: 25px;
+}
+
+.whatdo-center h2{
+    text-decoration: double underline;
+    text-align: center;
+    font-size: 2.0em;
+}
+
+.whatdo-center-desc{
+    padding: 10px;
+    text-align: center;
+    margin: 35px 0px;
+    line-height: 1.3em;
+    font-size: 1.3em;
+    background:#DCBFA6;
+    outline: #592c22 ridge 4px;
+
+}
+button:hover {
+    cursor: pointer;
+}
+.core-values-row{
+    color: #DCBFA6;
+    background-color: #261610;
+    margin: 25px 0px;
+    padding: 25px 40px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cv-col{
+    padding: 25px 40px;
+    text-align: center;
+    outline: #DCBFA6 ridge 4px;
+    flex: 0 0 20%;
+    box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
+
+}
+
+.core-values-title{
+    padding-top: 80px;
+    font-size: xx-large;
+}
+
+.cv-col h2{
+    text-decoration: underline;
+
+}
+
+.cv-col p{
+    line-height: 1.5em;
+    margin-top: 20px;
+    padding: 25px;
+}

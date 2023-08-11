@@ -45,6 +45,27 @@ const sAlmondDC = () => {
 
 
             </div>
+            <div className="related-products-row">
+
+                <h2>Other Products</h2>
+                <div className="act-products-row">
+                <div className="product-1">
+
+                    <img src="/images/Caramel_Macchiato_w_packaging_lux.png" alt="Caramel Macchiato"/>
+
+                    <h2>Caramel Macchiato</h2>
+                    
+
+                </div>
+                <div className="product-2">
+
+                    <img src="/images/Sea_Salt_Caramel_w_packaging_lux.png" alt="Sea Salt Caramel"/>
+                    
+                    <h2>Sea Salt Caramel</h2>
+                </div>
+
+                </div>
+            </div>
 
         </>
     )

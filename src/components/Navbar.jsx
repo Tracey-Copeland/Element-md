@@ -47,7 +47,7 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              Our Brands <i className='fas fa-caret-down' />
+              Partnered Brands <i className='fas fa-caret-down' />
             </Link>
             {dropdown && <Dropdown />}
           </li>

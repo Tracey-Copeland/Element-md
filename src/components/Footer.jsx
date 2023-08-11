@@ -10,12 +10,13 @@ const Footer = () => {
         <div className="footer">
             <div className="footer-container">
             <div className="footer-left">
+                <Link to="/">
                 <img className="footer-pic" src="/images/Element_MD_logo.png" alt="LUX logo light brown"/>
-
+                    </Link>
             </div>
             <div className="footer-center-left">
-                <strong>About Column</strong>
-                <p>Paragraph describing Element MDs core values that will get sent to me eventually</p>
+                <strong>Our Mission</strong>
+                <p>Element MD's mission is to produce superior cannabis products that enrich the lives of our patients and uplift our community.</p>
                 
             </div>
             <div className="footer-center-right">
