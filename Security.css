@@ -1,0 +1,121 @@
+/* .overlay{
+    background-color: rgba(0,0,0,0.75);
+    top: -10%;
+    width: 100%;
+    height:110%;
+    position:fixed;
+}
+
+.modalContainer{
+    height: 90%;
+    width: 90%;
+    position: fixed;
+    left:5%;
+    top: 5%;
+    background-color: #BFB7B0;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+    
+}
+.titleCloseBtn{
+    font-weight: 700;
+    cursor: pointer;
+    color: black;
+    text-align: right;
+    padding-right: 4px;
+}
+
+.modalContent{
+    padding-top: 40px;
+    text-align: center;
+    margin: auto;
+    height:85%;
+    width:75%;
+    font-size: 1.2em;
+    line-height: 2.0em;
+}
+
+.modalContent img{
+    height:40%;
+    width:60%;
+}
+.modalbuttons button{
+    font-size: 1.2em;
+    margin: 15px;
+    padding: 5px;
+
+}
+
+.modalContent h1, .modalContent p{
+    margin: 20px 0px;
+
+} */
+
+/* .modalinfront{
+    z-index: 10043;
+    position: absolute;
+} */
+
+.overlay{
+    background-color: rgba(0,0,0,0.8);
+    top: -10%;
+    width: 100%;
+    height:110%;
+    position:fixed;
+}
+
+.modalContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90%;
+    width: 90%;
+    position: fixed;
+    left:5%;
+    top: 5%;
+    background-image: url("./images/Gray_MD_background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+    
+}
+
+.modalContent{
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    text-align: center;
+    margin-right: 50%;
+    margin-top:7.5%;
+    /* height:85%;
+    width:75%; */
+    font-size: 1.2em;
+    line-height: 2.0em;
+    /* border: 1px solid black; */
+}
+
+.modalContent img{
+    outline: #BF8F65 ridge 4px;
+    box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
+    max-height:35%;
+    max-width:65%;
+}
+.modalbuttons button{
+    color:#DCBFA6;
+    outline: #BF8F65 ridge .2rem;
+    background-color: #592c22;
+    margin: 1.25rem;
+    font-size: 1.2em;
+    box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
+    /* padding: .9375rem 2rem; */
+    padding: .8rem 1.75rem;
+    font-weight:600;
+
+}
+
+.modalContent h1, .modalContent p{
+    margin: 1.25rem 0px;
+
+}
+
+.modalContent p{
+    font-size: 1.3em;
+}
