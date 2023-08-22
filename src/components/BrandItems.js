@@ -1,6 +1,6 @@
 export const BrandItems = [
     {
-        title: 'Lux Chocolates',
+        title: 'LUX',
         path: '/lux',
         cName: 'dropdown-link'
     },
@@ -9,9 +9,9 @@ export const BrandItems = [
         path: '/hash',
         cName: 'dropdown-link'
     },
-    {
-        title: 'Ryder',
-        path: '/ryder',
-        cName: 'dropdown-link'
-    }
+    // {
+    //     title: 'Ryder',
+    //     path: '/ryder',
+    //     cName: 'dropdown-link'
+    // }
 ];

@@ -1,0 +1,179 @@
+
+.title-row-abtus{
+    text-align: center;
+    font-size: 2.0rem;
+    padding: 1.5625rem 0px;
+    margin: .625rem 0px;
+    
+
+}
+
+.title-row-abtus h1{
+    padding-top: .9375rem;
+    outline: thick double #592c22;
+    background-color: #BF8F65;
+    
+
+}
+
+.abtus-soc-equ-row{
+    width: 100%;
+    background: #261610;
+    padding: 3.125rem 6.25rem;
+    margin-bottom: 1.5625rem;
+}
+
+.abtus-soc-equ-container{
+    padding: 3.125rem 2.5rem;
+    color: #261610;
+    height: 100% ;
+    width: 100%;
+    background-color: #DCBFA6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    outline: #261610 ridge .375rem;
+    box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
+
+}
+
+.abtus-soc-equ-container img{
+    flex: 1 1 40%;
+    outline: #261610 ridge .25rem;
+    box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
+}
+
+.abtus-soc-equ-container h2{
+    text-align: center;
+    /* padding: 15px; */
+    text-decoration: double underline;
+    font-size: 2.5em;
+    margin-bottom: 3.125rem;
+}
+
+.abtus-soc-equ-content{
+    display: flex;
+    gap: 3.125rem;
+    padding: 1.5625rem;
+}
+
+.abtus-soc-equ-content-paragraph{
+    flex: 1 1 40%;
+
+}
+
+.abtus-soc-equ-content p {
+    font-size: 1.25em;
+    line-height: 1.5em;
+    text-align: center;
+    
+}
+
+.abtus-whowhat-row{
+    width: 100%;
+    padding: 3.125rem;
+    background: #2A4040;
+    margin-bottom: 1.5625rem;
+}
+
+.abtus-whowhat-cont{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 2.5rem;
+    justify-content: space-between;
+    
+}
+
+.abtus-whowhat-cont-left, .abtus-whowhat-cont-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.5625rem;
+    flex: 1 1 40%;
+    background-color: #592c22;
+    box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
+    outline:#261610 ridge 6px;
+}
+
+.abtus-whowhat-cont-center{
+    /* margin: auto; */
+    flex: 1 1 6%;
+}
+
+.abtus-whowhat-cont-center img{
+    outline:#261610 ridge .25rem;
+    box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
+    margin-bottom: .3125rem;
+
+}
+
+.abtus-whowhat-cont-left h2, .abtus-whowhat-cont-right h2{
+    padding: .3125rem 0px;
+    text-align: center;
+    font-size: 1.5em;
+    border:#261610 ridge .25rem ;
+    box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
+    margin: 0px 9.375rem;
+    background: #DCBFA6;
+
+}
+.abtus-whowhat-cont-left p, .abtus-whowhat-cont-right p{
+    text-align: center;
+    border:#261610 ridge .25rem ;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    background:#DCBFA6;
+}
+
+.abtus-whowhat-cont-left p{
+    padding: 2.1875rem .9375rem;
+
+}
+
+.abtus-whowhat-cont-right p{
+    padding: 1.5625rem .9375rem;
+
+}
+
+.abtus-ext-methods-row{
+    width:100%;
+    background-color:#BF8F65;
+    padding: 2.1875rem 9.375rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5625rem;
+    margin-bottom: 1.5625rem;
+}
+.abtus-ext-methods-center, .abtus-ext-methods-bottom{
+    flex: 1 1 44%;
+    display: flex;
+    background-color:#DCBFA6;
+    border:#261610 ridge .25rem ;
+    box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
+    gap: 3.125rem;
+    padding: 1.5625rem;
+}
+.abtus-ext-methods-center h3, .abtus-ext-methods-bottom h3{
+    font-size: 1.35em;
+    line-height: 1.3em;
+
+}
+
+.abtus-ext-methods-center p, .abtus-ext-methods-bottom p{
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+
+.abtus-ext-methods-top{
+    flex: 0 0 12%;
+    padding: .625rem;
+    text-align: center;
+    font-size: 1.4em;
+    background-color:#DCBFA6;
+    border:#261610 ridge .25rem ;
+    box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
+
+}
+

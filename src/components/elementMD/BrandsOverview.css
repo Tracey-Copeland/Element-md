@@ -1,12 +1,133 @@
-.title-row{
-    height: 125px;
+.title-row-part-br{
+    /* height: 125px; */
     text-align: center;
     font-size: 2.0rem;
-    padding: 25px 0px;
-    margin: 10px 0px;
+    padding: 1.5625rem 0px;
+    margin: .625rem 0px;
+    /* background-color: #BF8F65; */
 }
 
-.title-row h1{
+.title-row-part-br h1{
+    padding-top: .9375rem;
     outline: thick double #592c22;
     background-color: #BF8F65;
 }
+
+.brand-row{
+    padding: 1.5625rem;
+    display: flex;
+    background-color: grey;
+    justify-content:space-evenly;
+    outline: #592c22 ridge .375rem;
+    box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
+}
+
+.brands-container{
+    padding: 1.5625rem 3.125rem 3.125rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3.125rem;
+}
+
+.brand-logo{
+    padding: 1.5625rem;
+    flex: 1 1 30%;
+    text-align: center;
+
+}
+.brand-logo img{
+    box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
+}
+
+.brand-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1 1 70%;
+    padding: 1.5625rem 6.25rem;
+}
+
+.br-desc-title{
+    /* margin-bottom: 25px; */
+    text-align: center;
+    font-size: 2.0em;
+    text-decoration: underline;
+}
+
+.br-desc-words{
+    text-align: center;
+    font-size: 1.6em;
+    line-height: 1.5em;
+    /* margin-bottom: 25px; */
+}
+
+@media screen and (max-width: 960px){
+    .brand-row{
+        flex-direction: column;
+        padding:0px;
+    }
+
+    .brands-HASH{
+        flex-direction: column-reverse ;
+    }
+
+    .brands-container{
+        padding: 1.5625rem 5rem 3.125rem;
+
+    }
+
+}
+
+.br-desc-btn-row{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.br-desc-btn-row button{
+    color:#592c22;
+    /* outline: #BF8F65 ridge 2px; */
+    margin: 1.25rem;
+    border: none;
+    box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
+    padding: .9375rem 2rem;
+    font-weight:600;
+    font-size: 1em;
+
+}
+
+.brands-lux{
+    background-color: #DCBFA6;
+    
+}
+
+.brands-lux button{
+    background-color: #BF8F65;
+    outline: #DCBFA6 ridge .1875rem;
+    
+}
+
+.brands-HASH{
+    background-color: #BF8F65;
+    
+
+}
+
+.brands-HASH button{
+    
+    background-color: #DCBFA6;
+    outline: #BF8F65 ridge .1875rem;
+}
+
+.brands-Ryder{
+    background-color: #BF8F65;
+}
+
+.brands-Ryder button{
+    background-color: #DCBFA6;
+    outline: #BF8F65 ridge .1875rem;
+}
+
+

@@ -21,7 +21,7 @@ const Locations = () => {
                 </div>
 
 
-                <div>
+                <div class="location-despo-cont">
                     <iframe src="https://www.google.com/maps/d/embed?mid=1QiAtRCZxGfzSfFakeRRaeMKeHSIFUrc&ehbc=2E312F" width="800" height="480" loading='lazy' title="Map of dispos"></iframe>
                 </div>
             </div>
@@ -75,7 +75,7 @@ const Locations = () => {
 
                 <div className="loc4 location-container">
                     <div className="location-top-row">
-                        <img className="top-row-col"src="/images/SunburstPharm_logo.png" alt="Sunburst Pharm Logo"/>
+                        <img className="top-row-col"src="/images/Sunburst_Pharm_updated.png" alt="Sunburst Pharm Logo"/>
                         <div className="loc-top-row-content top-row-col">
                             <h2 className="loc-title">Sunburst Pharm</h2>
                             <p>603 Meteor Ave, Cambridge, MD 21613</p>
@@ -120,7 +120,7 @@ const Locations = () => {
 
                 <div className="loc7 location-container">
                     <div className="location-top-row">
-                        <img className="top-row-col"src="/images/Ash_Ember_logo.png" alt="Ash Ember Logo"/>
+                        <img className="top-row-col"src="/images/Ash_Ember_updated.png" alt="Ash Ember Logo"/>
                         <div className="loc-top-row-content top-row-col">
                             <h2 className="loc-title">Ash + Ember</h2>
                             <p>202 Coursevall Dr #108, Centreville, MD 21617</p>
@@ -135,7 +135,7 @@ const Locations = () => {
 
                 <div className="loc8 location-container">
                     <div className="location-top-row">
-                        <img className="top-row-col"src="/images/Mana_logo.png" alt="Mana Logo"/>
+                        <img className="top-row-col"src="/images/Mana_updated.png" alt="Mana Logo"/>
                         <div className="loc-top-row-content top-row-col">
                             <h2 className="loc-title">Mana Supply - Edgewater </h2>
                             <p>3005 Solomons Island Rd, Edgewater, MD</p>
@@ -150,7 +150,7 @@ const Locations = () => {
 
                 <div className="loc9 location-container">
                     <div className="location-top-row">
-                        <img className="top-row-col"src="/images/Mana_logo.png" alt="Mana Logo"/>
+                        <img className="top-row-col"src="/images/Mana_updated.png" alt="Mana Logo"/>
                         <div className="loc-top-row-content top-row-col">
                             <h2 className="loc-title">Mana Supply - Middle River</h2>
                             <p>100 Carroll Island Rd, Middle River, MD 21220</p>

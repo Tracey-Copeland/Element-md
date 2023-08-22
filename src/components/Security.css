@@ -1,3 +1,60 @@
+/* .overlay{
+    background-color: rgba(0,0,0,0.75);
+    top: -10%;
+    width: 100%;
+    height:110%;
+    position:fixed;
+}
+
+.modalContainer{
+    height: 90%;
+    width: 90%;
+    position: fixed;
+    left:5%;
+    top: 5%;
+    background-color: #BFB7B0;
+    box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);
+    
+}
+.titleCloseBtn{
+    font-weight: 700;
+    cursor: pointer;
+    color: black;
+    text-align: right;
+    padding-right: 4px;
+}
+
+.modalContent{
+    padding-top: 40px;
+    text-align: center;
+    margin: auto;
+    height:85%;
+    width:75%;
+    font-size: 1.2em;
+    line-height: 2.0em;
+}
+
+.modalContent img{
+    height:40%;
+    width:60%;
+}
+.modalbuttons button{
+    font-size: 1.2em;
+    margin: 15px;
+    padding: 5px;
+
+}
+
+.modalContent h1, .modalContent p{
+    margin: 20px 0px;
+
+} */
+
+/* .modalinfront{
+    z-index: 10043;
+    position: absolute;
+} */
+
 .overlay{
     background-color: rgba(0,0,0,0.8);
     top: -10%;
@@ -15,7 +72,7 @@
     position: fixed;
     left:5%;
     top: 5%;
-    background-image: url("../images/Gray_MD_background.png");
+    background-image: url("./images/Gray_MD_background.png");
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px 0px 18px 0px rgba(0,0,0,0.75);

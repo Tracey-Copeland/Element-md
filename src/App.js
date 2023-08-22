@@ -15,6 +15,7 @@ import QualAbout from './components/elementMD/qualpartner/QualAbout';
 import QualApply from './components/elementMD/qualpartner/QualApply';
 import SSCaramelDC from './components/lux/SSCaramelDC';
 import CaramelMaccDC from './components/lux/CaramelMaccDC';
+import Security from './components/Security';
 
 
 
@@ -27,7 +28,8 @@ function App() {
       <NavBar />
       <Routes>
         
-        <Route path="/" element={<Home/>}></Route>
+        <Route path="/" element={<Security/>}></Route>
+        <Route path="/home" element={<Home/>}></Route>
         <Route path="/about-us" element={<AboutUs/>}></Route>
         <Route path="/brands" element={<BrandsOv/>}></Route>
         <Route path="/locations" element={<Locations/>}></Route>
@@ -37,12 +39,13 @@ function App() {
 
 
         <Route path="/lux" element={<LHome/>}></Route>
-        <Route path="/lux/smoked-almond-DC" element={<AlmondDC/>}></Route>
-        <Route path="/lux/seasalt-caramel-DC" element={<SSCaramelDC/>}></Route>
-        <Route path="/lux/caramel-macciato-DC" element={<CaramelMaccDC/>}></Route>
+        <Route path="/lux/smoked-almond" element={<AlmondDC/>}></Route>
+        <Route path="/lux/seasalt-caramel" element={<SSCaramelDC/>}></Route>
+        <Route path="/lux/caramel-macciato" element={<CaramelMaccDC/>}></Route>
 
         <Route path="/hash" element={<HaHome/>}></Route>
         <Route path="/ryder" element={<RHome/>}></Route>
+        <Route path='/*'  element={<Home />} />
       </Routes>
       <Footer />
       

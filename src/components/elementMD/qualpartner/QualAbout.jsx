@@ -10,7 +10,10 @@ import "./QualAbout.css";
 const QualAbout = () => {
     return(
         <>
-        <h2>Qualifying Partner About</h2>
+            <div className="title-row-qual-part">
+                <h1>Qualifying Partnership</h1>
+
+            </div>
         
         
         

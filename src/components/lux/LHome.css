@@ -4,67 +4,54 @@
     background-image: url("../images/LUX_icon2.png"), url("../images/LUX_icon1.png") ;
     background-position: left top, right top ;
     background-repeat: no-repeat, no-repeat;
-    height: 750px;
-    /* border-radius: 8%; */
-    /* margin-top: 30px;
-    margin-bottom: 30px; */
+    height: 46.875rem;
+    padding:7.8125rem 0px;
 }
 
 .top-row-container{    
-    position: relative;
-    margin: 0;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    height: 500px;
+    height: 31.25rem;
     width: 100%;
     background-color: #BFB7B0;
     opacity: 0.4;
-    border: 2px solid white;
+    outline: .125rem ridge white;
+    text-align: center;
+    padding-top: 6.25rem;
+    
 
 }
 
 .lux-logo{
-    position: relative;
-    margin: 0;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    border: 5px solid black;
+    outline: .3125rem ridge black;
 }
 
 .about-container{
+    /* padding: 3.125rem; */
+    margin-bottom:1.5625rem;
     background-color: #DCBFA6;
-    height: 600px;
 
 }
 .ar-title{
-    height: 150px;
     text-align: center;
     font-size: 2.5rem;
-    padding: 50px 0px;
+    padding: 3.125rem 0px;
 }
 
 .ar-title h1{
+    padding-top: .9375rem;
     outline: thick double #592c22;
 }
 
 .about-row{
-    height: 450px;
     width: 100%;
-    /* border: 3px solid black; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding: 3.125rem 0px 4.6875rem;
 
 }
 
 .arow-col-left, .arow-col-right{
-    height: 310px;
-    flex: 0 0 40%;
-    /* border: 3px solid black; */
+    flex: 1 1 40%;
     
 }
 
@@ -73,43 +60,67 @@
 }
 
 .arow-col-left img {
-    outline: #905d3c ridge 8px;
+    outline: #905d3c ridge .5rem;
 
 }
 
 .arow-col-right {
     text-align: center;
+    padding: 1.5625rem 6.25rem 1.5625rem 3.125rem;
+}
+
+@media screen and (max-width: 960px){
+    .about-container{
+        width:100%;
+        /* margin:5%;
+        outline:#592c22 ridge .5rem;
+        box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75); */
+    }
+
+    .about-row{
+        flex-direction: column;
+        gap:2rem;
+        padding: 2rem 0;
+        /* justify-content: space-evenly; */
+    }
+
+
 }
 
 
 .products-row-title{
     text-align: center;
     font-size: 2.0rem;
-    padding: 50px 0px;
+    padding: 1.5625rem 0px 3.125rem;
     
 }
 
 .products-row-title h1{
-    text-decoration-line: underline overline;
-    text-decoration-thickness: 3px;
+    background: #BF8F65;
+    text-decoration-line: underline;
+    text-decoration-thickness: .1875rem;
     text-decoration-style: double;
+    padding: .625rem 0px;
 }
 
 
 .products-row {
     display: flex;
-    padding: 0px 50px 50px 50px;
+    gap: 2.5rem;
+    justify-content: space-evenly;
+    padding: 0px 3.125rem 3.125rem 3.125rem;
+    width:100%;
 
 }
 
 .product-one, .product-two, .product-three{
-    flex: 0 0 30%;
-    margin:auto;
-    height: 580px;
+    flex: 1 1 30%;
     background-color: #BF8F65;
-    /* border-radius: 8%; */
-    padding-top: 15px;
-    outline: #592c22 ridge 8px;
+    padding: .9375rem;
+    outline: #592c22 ridge .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .pic-container{
@@ -118,37 +129,37 @@
 }
 
 .pic-container img{
-    outline: #592c22 ridge 4px;
+    outline: #592c22 ridge .25rem;
     
 }
 
 
 .p1-desc, .p2-desc, .p3-desc{
-    padding: 15px 15px;
+    padding: .9375rem .9375rem;
     text-align: center;
 
 }
 .p1-desc p, .p2-desc p, .p3-desc p{
-    margin-top: 8px;
+    margin-top: .5rem;
     text-align: center;
     font-size: 1.2rem;
 }
 
 .p1-desc h2, .p2-desc h2, .p3-desc h2{
-    margin-top: 8px;
+    margin-top: .5rem;
     text-align: center;
 }
 
 
 .btn-row{
-    margin-top: 20px;
+    margin-top: 1.25rem;
     text-align: center;
 }
 
 .btn-row button{
-    padding: 15px 32px;
-    border-radius: 8%;
-    box-shadow: 29px 6px 48px 11px rgba(89,44,34,0.49);
+    outline: #BF8F65 ridge .125rem;
+    box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
+    padding: .9375rem 2rem;
     cursor: pointer;
     font-weight:600;
 
@@ -171,9 +182,19 @@
 
 }
 
+@media screen and (max-width: 1320px){
+    .products-row{
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-template-rows: auto auto;
+
+    }
+
+}
+
 .arow-col-right p{
     font-size: 1.5rem;
-    line-height: 150%;
+    line-height: 2.3rem;
     font-weight: 500;
 }
 

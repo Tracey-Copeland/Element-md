@@ -1,0 +1,12 @@
+.title-row-qual-part{
+    text-align: center;
+    font-size: 2.0rem;
+    padding: 1.5625rem 0px;
+    margin: .625rem 0px;
+}
+
+.title-row-qual-part h1{
+    padding-top: .9275rem;
+    outline: thick double #592c22;
+    background-color: #BF8F65;
+}
