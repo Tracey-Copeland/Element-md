@@ -95,8 +95,8 @@
 .modalContent img{
     outline: #BF8F65 ridge 4px;
     box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
-    height:35%;
-    width:65%;
+    max-height:35%;
+    max-width:65%;
 }
 .modalbuttons button{
     color:#DCBFA6;
