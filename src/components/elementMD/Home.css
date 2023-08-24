@@ -197,20 +197,16 @@ END OF CAROUSEL
 */
 
 @media screen and (max-width: 1240px){
-    .whatdowedo-row{
+    /* .whatdowedo-row{
         display:flex;
-        /* flex-direction: column; */
-        /* justify-content: center; */
-    }
+    } */
     .whatdo-right{
         display: none;
     }
 
     .whatdo-left{
-        /* flex: 1 1 auto; */
-        /* padding-top: 75px; */
         margin: auto;
-        /* border: 1px solid #261610; */
+        
 
     }
 
@@ -218,13 +214,6 @@ END OF CAROUSEL
         margin: auto;
 
     }
-
-    /* .whatdo-center{
-        border: 1px solid #261610;
-    } */
-
-
-
 }
 
 .whatdowedo-row{
@@ -232,6 +221,7 @@ END OF CAROUSEL
     background-color: #BF8F65;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 

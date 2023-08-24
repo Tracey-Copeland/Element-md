@@ -46,107 +46,64 @@ const LHome = () => {
             </div> */}
 
             <div className="products-row-container">
-
                 <div className="products-row-title">
-
                     <h1>Our Products</h1>
                 </div>
-
 
                 <div className="products-row">
 
                     <div className="product-one">
-
                         <div className="pic-container">
-
                             <img src="/images/Smoked_Almond_w_packaging_lux.png" alt="Smoked Almond packaging" />
-
                         </div>
-
                         <div className="p1-desc">
-
                             <h2>Smoked Almond Chocolates</h2>
-
                             <p>Available in Dark and Milk Chocolate</p>
-
                         </div>
-
                         <div className="btn-row">
-
                             <Link to="/lux/smoked-almond">
                                 <button className="p1-btn" type="button">
                                     View Product
                                 </button>
                             </Link>
-
                         </div>
-
-
-
                     </div>
 
                     <div className="product-two">
-
                         <div className="pic-container">
-
                             <img src="/images/Caramel_Macchiato_w_packaging_lux.png" alt="Caramel Macchiato packaging" />
-
                         </div>
-
                         <div className="p2-desc">
-
                             <h2>Caramel Macchiato Chocolates</h2>
-
                             <p>Available in Dark and Milk Chocolate</p>
-
                         </div>
-
                         <div className="btn-row">
-
                             <Link to="/lux/caramel-macciato">
                                 <button className="p2-btn" type="button">
                                     View Product
                                 </button>
                             </Link>
-
                         </div>
-
                     </div>
 
-                    < div className="product-three">
-
+                    <div className="product-three">
                         <div className="pic-container">
-
                             <img src="/images/Sea_Salt_Caramel_w_packaging_lux.png" alt="Sea Salt Caramel packaging" />
-
                         </div>
-
                         <div className="p3-desc">
-
                             <h2>Sea Salt Caramel Chocolates</h2>
-
                             <p>Available in Dark and Milk Chocolate</p>
-
                         </div>
-
                         <div className="btn-row">
-
                             <Link to="/lux/seasalt-caramel">
                                 <button className="p3-btn" type="button">
                                     View Product
                                 </button>
                             </Link>
-
                         </div>
-
                     </div>
                 </div>
-
             </div>
-
-
-
-
         </>
 
     )

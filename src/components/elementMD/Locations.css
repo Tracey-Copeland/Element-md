@@ -49,6 +49,17 @@
     grid-template-columns: 1fr 1fr;
 }
 
+@media screen and (max-width: 1160px){
+    .locations-grid{
+        grid-template-columns: 1fr;
+    }
+    
+    
+
+
+
+}
+
 .location-container{
     outline: #592c22 ridge .25rem;
     background-color: #BF8F65;
@@ -61,6 +72,10 @@
 
 .location-top-row{
     display: flex;
+}
+.location-top-row img{
+    max-height: 13rem;
+    max-width: 25rem;
 }
 
 .loc-title{

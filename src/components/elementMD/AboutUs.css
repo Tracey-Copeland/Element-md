@@ -39,6 +39,8 @@
 
 .abtus-soc-equ-container img{
     flex: 1 1 40%;
+    max-width: 32rem;
+    max-height: 22rem;
     outline: #261610 ridge .25rem;
     box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
 }
