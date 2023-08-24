@@ -124,3 +124,9 @@
 .modalContent p{
     font-size: 1.3em;
 }
+
+.noPopup{
+    color: red;
+    font-weight: 700;
+    /* text-decoration: underline; */
+}

@@ -38,6 +38,7 @@
 }
 
 .abtus-soc-equ-container img{
+    margin: auto;
     flex: 1 1 40%;
     max-width: 32rem;
     max-height: 22rem;
@@ -55,6 +56,8 @@
 
 .abtus-soc-equ-content{
     display: flex;
+    flex-wrap: wrap;
+    /* text-align: center; */
     gap: 3.125rem;
     padding: 1.5625rem;
 }
@@ -82,6 +85,7 @@
     height: 100%;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     gap: 2.5rem;
     justify-content: space-between;
     
@@ -143,6 +147,7 @@
     background-color:#BF8F65;
     padding: 2.1875rem 9.375rem;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 1.5625rem;
     margin-bottom: 1.5625rem;
@@ -150,6 +155,7 @@
 .abtus-ext-methods-center, .abtus-ext-methods-bottom{
     flex: 1 1 44%;
     display: flex;
+    /* max-height: 40rem; */
     background-color:#DCBFA6;
     border:#261610 ridge .25rem ;
     box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);

@@ -206,12 +206,14 @@ END OF CAROUSEL
 
     .whatdo-left{
         margin: auto;
+        padding: 3rem;
         
 
     }
 
     .whatdo-center{
         margin: auto;
+        padding: 3rem;
 
     }
 }
@@ -231,7 +233,7 @@ END OF CAROUSEL
 }
 
 .whatdo-center{
-    width:45%;
+    max-width:45%;
     padding: .625rem;
     
 }
@@ -239,7 +241,7 @@ END OF CAROUSEL
 .whatdo-center h2{
     text-decoration: double underline;
     text-align: center;
-    font-size: 2.0rem;
+    font-size: 2.3rem;
 }
 
 .whatdo-center-desc{
@@ -380,11 +382,17 @@ button:hover {
     .location-home-cont{
         display:flex;
         flex-direction:column-reverse;
+        padding: 5rem;
+        
 
     }
 
     .location-home-cont-left{
         min-height: 300px;
+    }
+
+    .location-home-row{
+        padding: 1.5625rem 6.5rem;
     }
 
 
