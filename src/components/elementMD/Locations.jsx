@@ -21,10 +21,9 @@ const Locations = () => {
                 </div>
 
 
-                <div class="location-despo-cont">
+                
                     <iframe src="https://www.google.com/maps/d/embed?mid=1QiAtRCZxGfzSfFakeRRaeMKeHSIFUrc&ehbc=2E312F" 
-                    width="800" height="480" loading='lazy' title="Map of dispos"></iframe>
-                </div>
+                    max-width="800" max-height="480" loading='lazy' className="location-despo-cont" title="Map of dispos"></iframe>
             </div>
 
             <div className="locations-grid">

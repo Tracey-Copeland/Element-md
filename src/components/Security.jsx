@@ -8,9 +8,7 @@ import "./Security.css"
 
 const Security = () =>{
     const [isNotOfAge, setIsNotOfAge] = useState(true);
-
     const [redirctTo, setRedirctTo] = useState(false);
-
     const [clickedNo, setClickedNo] = useState(false);
 
     useEffect(() => {

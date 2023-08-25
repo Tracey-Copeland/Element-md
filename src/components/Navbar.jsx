@@ -30,7 +30,6 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <Link to='/home' onClick={closeMobileMenu}>
-          {/* Element MD */}
           <img className='navbar-logo'src="/images/Element_MD_logo_navbar.png" alt="Element MD logo" />
         </Link>
         <div className='menu-icon' onClick={handleClick}>

@@ -21,7 +21,7 @@
 }
 
 .tet-container{
-    flex: 1 1 60%;
+    flex: 1 1 50%;
     color: #DCBFA6;
     text-align: center;
     font-size:large;
@@ -35,7 +35,7 @@
 }
 
 .location-despo-cont{
-    flex: 1 1 40%;
+    flex: 1 1 50%;
 
 }
 
@@ -52,6 +52,7 @@
 @media screen and (max-width: 1160px){
     .locations-grid{
         grid-template-columns: 1fr;
+        padding: 2rem 3rem;
     }
     
     
