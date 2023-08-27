@@ -42,13 +42,14 @@
     background-color:#DCBFA6;
     text-align: center;
     flex: 1 1 50%;
-    font-size:1.5rem;
+    /* font-size:1.5rem; */
+    font-size: clamp(1.1rem, 2.8vw, 1.5rem);
     padding: .625rem 1.25rem;
 
 }
 
 .wel-cont-l-top img{
-    max-width: 23.125rem;
+    width: clamp(15rem, 52vw, 23.125rem);
     height: auto;
     margin: 1.25rem 0px;
     box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
@@ -60,7 +61,7 @@
 .wel-cont-l-bottom{
     padding-top: 2.5rem;
     text-align: center;
-    font-size:1.5rem;
+    font-size: clamp(1.1rem, 2.5vw, 1.5rem);
     color:#BF8F65;
     background-color: #592c22;
     flex: 1 1 50%;
@@ -197,9 +198,6 @@ END OF CAROUSEL
 */
 
 @media screen and (max-width: 1240px){
-    /* .whatdowedo-row{
-        display:flex;
-    } */
     .whatdo-right{
         display: none;
     }
@@ -214,48 +212,68 @@ END OF CAROUSEL
     .whatdo-center{
         margin: auto;
         padding: 3rem;
-
+        
     }
 }
 
+
+
 .whatdowedo-row{
-    padding: 3.125rem 0;
+    padding: 3.125rem 1rem;
     background-color: #BF8F65;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-evenly;
 }
+
+
 
 .whatdowedo-row img{
     box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
     outline: #592c22 ridge .25rem;
+    width: clamp(300px, 25vw, 350px);
+    /* max-height: 70vh; */
 }
 
 .whatdo-center{
-    max-width:45%;
-    padding: .625rem;
+    max-width:40%;
+    padding: 1rem 0rem;
+    /* margin: 1rem; */
     
 }
 
 .whatdo-center h2{
     text-decoration: double underline;
     text-align: center;
-    font-size: 2.3rem;
+    font-size: clamp(1.7rem, 4.5vw, 2.3rem);
 }
 
 .whatdo-center-desc{
-    padding: 1.5625rem .9375rem;
+    padding: 1.5625rem 1rem;
     text-align: center;
     margin: 3.125rem 0px 1.5625rem;
     line-height: 1.4em;
-    font-size: 1.3em;
+    font-size: clamp(1.15rem, 3vw, 1.3rem);
+    /* font-size: 3vw; */
     background:#DCBFA6;
     outline: #592c22 ridge .25rem;
 
 }
 button:hover {
     cursor: pointer;
+}
+
+@media screen and (max-width: 840px){
+    .whatdowedo-row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .whatdo-center{
+        max-width:70%;
+    }
+
 }
 
 
@@ -276,16 +294,13 @@ button:hover {
     justify-content: space-between; */
 }
 
-/* @media screen and (max-width: 1220px){
-    .core-values-row{
-        display: grid;
-        
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
-        grid-gap: 1.5625rem;
-    }
 
-} */
+@media screen and (max-width: 840px){
+    .core-values-row{
+        grid-template-columns:1fr
+    }
+}
+
 .cv-col{
     padding: 1.5625rem 1.875rem;
     text-align: center;
@@ -309,11 +324,11 @@ button:hover {
 }
 
 .cv-col p{
-    font-size: 1.1rem ;
-    line-height: 1.7em;
+    font-size: clamp(.9rem, 2.5vw, 1.25rem );
+    /* font-size: 2.5vw ; */
+    line-height: 1.4em;
     /* margin-top: 1.25rem; */
     padding: 1rem;
-    font-weight: 550;
 }
 
 .location-home-row{
