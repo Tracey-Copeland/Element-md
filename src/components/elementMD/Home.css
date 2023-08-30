@@ -204,7 +204,7 @@ END OF CAROUSEL
 
     .whatdo-left{
         margin: auto;
-        padding: 3rem;
+        /* padding: 3rem; */
         
 
     }
@@ -233,7 +233,7 @@ END OF CAROUSEL
     box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
     outline: #592c22 ridge .25rem;
     width: clamp(300px, 25vw, 350px);
-    /* max-height: 70vh; */
+    max-height: 75vh;
 }
 
 .whatdo-center{

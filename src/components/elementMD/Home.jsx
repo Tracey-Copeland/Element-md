@@ -123,9 +123,7 @@ const Home = () => {
                 </div>
 
                 <div className="whatdowedo-row">
-                    <div className="whatdo-left">
-                        <img src='/images/nkechi_talking_in_lab.png' alt="Owner Talking to customer in lab" />
-                    </div>
+                        <img className="whatdo-left" src='/images/nkechi_talking_in_lab.png' alt="Owner Talking to customer in lab" />
                     <div className="whatdo-center">
                         <h2>Who are we?</h2>
 
@@ -138,9 +136,7 @@ const Home = () => {
                                 ensure every product is created with exceptional standards and superior quality for the pleasure of our customers.</p>
                         </div>
                     </div>
-                    <div className="whatdo-right">
-                        <img src='/images/eplaning_lab.png' alt="Employee describing Lab" />
-                    </div>
+                        <img className="whatdo-right" src='/images/eplaning_lab.png' alt="Employee describing Lab" />
                 </div>
 
 
