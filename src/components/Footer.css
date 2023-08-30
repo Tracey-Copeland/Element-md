@@ -60,3 +60,9 @@
 .footer-link{
     color:white;
 }
+
+@media screen and (max-width: 960px){
+    .footer-container{
+        display: grid;
+    }
+}

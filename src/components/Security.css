@@ -61,13 +61,11 @@
 
 .modalContent p{
     font-size: 1.3rem;
-    
 }
 
 
 .modalContent h1, .modalContent p{
     margin: 1.25rem 0px;
-    /* font-size: clamp(.8rem, .1rem +.8rem, 1.6rem); */
     
     
 
@@ -76,5 +74,21 @@
 .noPopup{
     color: red;
     font-weight: 700;
-    /* text-decoration: underline; */
+
+}
+
+@media screen and (max-width: 1200px){
+    .modalContainer{
+        background-image: none;
+        background-color: #DCBFA6;
+    }
+
+    .modalContent{
+        margin: auto;
+    }
+
+    .modalContent h1, .modalContent p, .modalContent img, .noPopup{
+        margin-bottom: 2.5rem;
+    }
+    
 }

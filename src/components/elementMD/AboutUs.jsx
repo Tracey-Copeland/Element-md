@@ -112,9 +112,24 @@ const AboutUs = () => {
 
             <div className="abtus-founder-row">
                 <div className="abtus-founder-container">
+                        <img className="abtus-founder-pic" src='/images/nkechi_talking_in_lab.png' alt="Owner Talking to customer in lab" />
 
 
-                    
+                    <div className="abtus-founder-content">
+                        <h2>Founder & CEO </h2>
+
+                        <p>
+                        Nkechi Iwomi ("N-kay-chi E-wuh-me") stands as an exceptional African American woman CEO dedicated to championing social equity and transformative change. With an unyielding 
+                        passion for justice, she has shattered glass ceilings, becoming a symbol of empowerment and progress. Armed with business training from the Fischer College of business (Ohio State) 
+                        and nearly a decade as a Excutive Project Manager at Mckesson, her business prowess merged with her social consciousness, driving her to found Element MD. 
+                        As the CEO of this Social equity focused Cannabis Company, Nkechi has harnessed innovation 
+                        as a force for good, implementing diversity-driven hiring practices and pioneering 
+                        initiatives that prioritize ethical business practices and environmental sustainability. Through her visionary leadership, 
+                        Nkechi Iwomi continues to illuminate a path towards a more inclusive future, inspiring generations to come.
+                        </p>
+
+
+                    </div>
                 </div>
 
 

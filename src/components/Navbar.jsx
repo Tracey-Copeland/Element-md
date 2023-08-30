@@ -56,7 +56,7 @@ function Navbar() {
             </Link>
           </li>
 
-          <li className='nav-item'>
+          {/* <li className='nav-item'>
             <Link
               to='/qualifying-partner'
               className='nav-links'
@@ -64,7 +64,7 @@ function Navbar() {
             >
               Qualifying Partnership
             </Link>
-          </li>
+          </li> */}
 
           <li className='nav-item'>
             <Link

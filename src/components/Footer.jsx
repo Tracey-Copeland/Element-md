@@ -41,9 +41,9 @@ const Footer = () => {
                         </Link>
                         
                     </li>
-                    <li>
+                    {/* <li>
                         HASH Product
-                    </li>
+                    </li> */}
                 </ul>
                 
             </div>

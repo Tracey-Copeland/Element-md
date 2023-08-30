@@ -11,8 +11,8 @@ import AboutUs from './components/elementMD/AboutUs';
 import Locations from './components/elementMD/Locations';
 import ContactUs from './components/elementMD/ContactUs';
 import Footer from './components/Footer';
-import QualAbout from './components/elementMD/qualpartner/QualAbout';
-import QualApply from './components/elementMD/qualpartner/QualApply';
+import QualAbout from './components/elementMD/QualAbout';
+// import QualApply from './components/elementMD/qualpartner/QualApply';
 import SSCaramelDC from './components/lux/SSCaramelDC';
 import CaramelMaccDC from './components/lux/CaramelMaccDC';
 import Security from './components/Security';
@@ -35,9 +35,7 @@ function App() {
         <Route path="/locations" element={<Locations/>}></Route>
         <Route path="/contact-us" element={<ContactUs/>}></Route>
         <Route path="/qualifying-partner" element={<QualAbout/>}></Route>
-        <Route path="/qualifying-partner/apply" element={<QualApply/>}></Route>
-
-
+        {/* <Route path="/qualifying-partner/apply" element={<QualApply/>}></Route> */}
         <Route path="/lux" element={<LHome/>}></Route>
         <Route path="/lux/smoked-almond" element={<AlmondDC/>}></Route>
         <Route path="/lux/seasalt-caramel" element={<SSCaramelDC/>}></Route>

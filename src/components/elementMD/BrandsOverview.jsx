@@ -45,7 +45,7 @@ const BrandsOv = () => {
                 </div>
 
 
-                <div className="brands-HASH brand-row">
+                {/* <div className="brands-HASH brand-row">
                     <div className="brand-description">
                         <h2 className="br-desc-title">H.A.S.H. Concentrates</h2>
 
@@ -68,7 +68,7 @@ const BrandsOv = () => {
                         <img src="/images/LUX_logos_darkbrown.png" alt="LUX logo brown"/>
 
                     </div>
-                </div>
+                </div> */}
 
 
                 {/* <div className="brands-Ryder brand-row">
