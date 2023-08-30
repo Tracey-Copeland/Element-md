@@ -254,7 +254,7 @@ END OF CAROUSEL
     text-align: center;
     margin: 3.125rem 0px 1.5625rem;
     line-height: 1.4em;
-    font-size: clamp(1.15rem, 3vw, 1.3rem);
+    font-size: clamp(1rem, 3vw, 1.3rem);
     /* font-size: 3vw; */
     background:#DCBFA6;
     outline: #592c22 ridge .25rem;
