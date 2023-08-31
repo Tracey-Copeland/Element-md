@@ -171,6 +171,7 @@
     background-color: #DCBFA6;
     outline: #572D2D ridge .25rem;
     display:flex;
+    gap:.625rem;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -181,7 +182,7 @@
     width: 6.25rem;
     outline: #572D2D ridge .1875rem;
     box-shadow: 10px 10px 202px -27px rgba(0,0,0,0.75);
-    margin-bottom: .625rem;
+    
 }
 
 .SS-extras-row-right-prod button{
@@ -223,5 +224,13 @@
     .SS-extras-row-right-prod-cont{
         padding:.5rem;
         font-size: .9rem;
+    }
+
+    .SS-extras-row-right-prod{
+        gap:.325rem;
+    }
+
+    .SS-extras-row-right-prod button{
+        margin-top: .325rem;
     }
 }

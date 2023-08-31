@@ -185,6 +185,7 @@
     outline: #572D2D ridge .25rem;
     display:flex;
     flex-direction: column;
+    gap:.625rem;
     justify-content: space-between;
 }
 
@@ -194,7 +195,6 @@
     width: 6.25rem;
     outline: #572D2D ridge .1875rem;
     box-shadow: 10px 10px 202px -27px rgba(0,0,0,0.75);
-    margin-bottom: .625rem;
 }
 
 .almond-extras-row-right-prod button{
@@ -204,7 +204,7 @@
     box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
     padding: .3215rem 3.125rem;
     font-weight:600;
-    margin-top: .625rem;
+    margin-top:.625rem;
 }
 
 .almond-extras-row-right-prod-cont{
@@ -236,6 +236,14 @@
     .almond-extras-row-right-prod-cont{
         padding:.5rem;
         font-size: .9rem;
+    }
+    .almond-extras-row-right-prod{
+        gap:.325rem;
+    }
+
+    .almond-extras-row-right-prod button{
+        margin-top:.325rem;
+
     }
 }
 
