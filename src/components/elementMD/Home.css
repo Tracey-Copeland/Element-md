@@ -30,6 +30,8 @@
 
 }
 
+
+
 .welcome-container-left{
     flex: 1 1 50%;
     display: flex;
@@ -81,6 +83,21 @@
     padding: .9375rem 2rem;
     font-weight:600;
     /* font-size: 1em; */
+}
+
+@media screen and (max-width: 520px){
+    .wel-cont-l-top{
+        padding:.5rem;
+    }
+
+    .wel-cont-l-bottom{
+        padding:.5rem;
+    }
+
+    .buttn-row button{
+        padding:1rem;
+    }
+
 }
 
 
@@ -272,6 +289,18 @@ button:hover {
 
     .whatdo-center{
         max-width:70%;
+    }
+
+}
+
+@media screen and (max-width: 520px){
+    .whatdowedo-row{
+        padding:1rem 0px 2rem;
+
+    }
+
+    .whatdo-center-desc{
+        margin: 1.5rem 0px;
     }
 
 }

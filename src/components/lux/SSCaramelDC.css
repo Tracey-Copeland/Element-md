@@ -1,5 +1,5 @@
 .trow-SS-row {
-    width: 100%;
+    /* width: 100%; */
     padding: 3.125rem;
 }
 
@@ -45,17 +45,17 @@
 
 .trow-SS-right h1{
     margin-bottom: 1.25rem;
-    font-size: 2.5em;
+    font-size:clamp(1.6rem, 5.5vw, 2.5rem);
     text-decoration: underline ;
 }
 
 .trow-SS-right h4{
-    font-size: 1.2em;
+    font-size:clamp(1rem, 3vw, 1.2rem);
     margin-bottom: .1875rem;
 }
 
 .trow-SS-right p{
-    font-size: 1.1em;
+    font-size:clamp(.9rem,3vw,1.1rem);
     line-height: 1.3em;
 }
 
@@ -92,6 +92,35 @@
     margin: .9375rem 0;
     
 }
+
+@media screen and (max-width: 600px){
+    .lhome-link{
+        padding:.5rem;
+    }
+    .trow-SS-product-pic{
+        width:80%;
+        height:80%;
+    }
+
+    .trow-SS-row{
+        padding:1.5rem;
+    }
+
+    .trow-SS-cont-content{
+        padding:1.5rem;
+    }
+
+    .trow-SS-right p{
+        line-height:1.1rem;
+    }
+
+    .trow-SS-cont-content{
+        display:flex;
+        flex-direction: column;
+    }
+
+}
+
 
 .disclaimer{
     font-size: .7em;
@@ -170,4 +199,29 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 600px){
+    .SS-extras-row{
+        padding:1.5rem .5rem;
+        margin: 0px 1.5rem;
+    }
+
+    .SS-extras-row-right-prod img{
+        max-width: 65%;
+        max-height: 45%;
+    }
+
+    .SS-extras-row-left p{
+        font-size: .9rem;
+    }
+
+    .SS-extras-row-right-prod button{
+        padding:.5rem 1.5rem;
+    }
+
+    .SS-extras-row-right-prod-cont{
+        padding:.5rem;
+        font-size: .9rem;
+    }
 }

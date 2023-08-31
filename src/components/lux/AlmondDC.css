@@ -1,6 +1,6 @@
 
 .trow-almond-row {
-    width: 100%;
+    /* width: 100%; */
     padding: 3.125rem;
 }
 
@@ -51,17 +51,22 @@
 
 .trow-almond-right h1{
     margin-bottom: 1.25rem;
-    font-size: 2.5em;
+    font-size:clamp(1.6rem, 5.5vw, 2.5rem);
+
+    /* font-size: 2.5em; */
     text-decoration: underline ;
 }
 
 .trow-almond-right h4{
-    font-size: 1.2em;
-    margin-bottom: .1875rem;
+    font-size:clamp(1rem, 3vw, 1.2rem);
+    /* font-size: 1.2rem; */
+    margin-bottom: .25rem;
 }
 
 .trow-almond-right p{
-    font-size: 1.1em;
+    font-size:clamp(.9rem,3vw,1.1rem);
+
+    /* font-size: 1.1em; */
     line-height: 1.3em;
 }
 
@@ -98,6 +103,37 @@
     margin: .9375rem 0;
     
 }
+
+@media screen and (max-width: 600px){
+    .lhome-link{
+        padding:.5rem;
+    }
+    .trow-almond-product-pic{
+        width:80%;
+        height:80%;
+    }
+
+    .trow-almond-row{
+        padding:1.5rem;
+    }
+
+    .trow-almond-cont-content{
+        padding:1.5rem;
+    }
+
+    .trow-almond-right p{
+        line-height:1.1rem;
+    }
+
+    .trow-almond-cont-content{
+        display:flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
 
 .disclaimer{
     font-size: .7em;
@@ -176,6 +212,31 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 600px){
+    .almond-extras-row{
+        padding:1.5rem .5rem;
+        margin: 0px 1.5rem;
+    }
+
+    .almond-extras-row-right-prod img{
+        max-width: 65%;
+        max-height: 45%;
+    }
+
+    .almond-extras-row-left p{
+        font-size: .9rem;
+    }
+
+    .almond-extras-row-right-prod button{
+        padding:.5rem 1.5rem;
+    }
+
+    .almond-extras-row-right-prod-cont{
+        padding:.5rem;
+        font-size: .9rem;
+    }
 }
 
 

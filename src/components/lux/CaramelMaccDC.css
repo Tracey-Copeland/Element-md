@@ -1,5 +1,5 @@
 .trow-carMac-row {
-    width: 100%;
+    /* width: 100%; */
     padding: 3.125rem;
 }
 
@@ -45,17 +45,17 @@
 
 .trow-carMac-right h1{
     margin-bottom: 1.25rem;
-    font-size: 2.5em;
+    font-size:clamp(1.6rem, 5.5vw, 2.5rem);
     text-decoration: underline ;
 }
 
 .trow-carMac-right h4{
-    font-size: 1.2em;
+    font-size:clamp(1rem, 3vw, 1.2rem);
     margin-bottom: .1875rem;
 }
 
 .trow-carMac-right p{
-    font-size: 1.1em;
+    font-size:clamp(.9rem,3vw,1.1rem);
     line-height: 1.3em;
 }
 
@@ -91,6 +91,34 @@
 .trow-carMac-desc-row{
     margin: .9375rem 0;
     
+}
+
+@media screen and (max-width: 600px){
+    .lhome-link{
+        padding:.5rem;
+    }
+    .trow-carMac-product-pic{
+        width:80%;
+        height:80%;
+    }
+
+    .trow-carMac-row{
+        padding:1.5rem;
+    }
+
+    .trow-carMac-cont-content{
+        padding:1.5rem;
+    }
+
+    .trow-carMac-right p{
+        line-height:1.1rem;
+    }
+
+    .trow-carMac-cont-content{
+        display:flex;
+        flex-direction: column;
+    }
+
 }
 
 .disclaimer{
@@ -170,6 +198,31 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 600px){
+    .carMac-extras-row{
+        padding:1.5rem .5rem;
+        margin: 0px 1.5rem;
+    }
+
+    .carMac-extras-row-right-prod img{
+        max-width: 65%;
+        max-height: 45%;
+    }
+
+    .carMac-extras-row-left p{
+        font-size: .9rem;
+    }
+
+    .carMac-extras-row-right-prod button{
+        padding:.5rem 1.5rem;
+    }
+
+    .carMac-extras-row-right-prod-cont{
+        padding:.5rem;
+        font-size: .9rem;
+    }
 }
 
 

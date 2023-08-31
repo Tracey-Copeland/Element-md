@@ -107,6 +107,23 @@
 
 }
 
+@media screen and (max-width: 520px){
+    .brand-description{
+        padding:1rem;
+    }
+
+    .brand-logo{
+        padding:1rem;
+    }
+
+    .br-desc-btn-row button{
+        padding:1rem;
+        margin:1rem;
+    }
+    
+
+}
+
 .brands-lux{
     background-color: #DCBFA6;
     
@@ -114,7 +131,7 @@
 
 .brands-lux button{
     background-color: #BF8F65;
-    outline: #DCBFA6 ridge .1875rem;
+    outline: #592c22 ridge .1875rem;
     
 }
 

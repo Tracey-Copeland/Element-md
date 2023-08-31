@@ -80,6 +80,23 @@
     .abtus-soc-equ-row{
         padding: 3.125rem;
     }
+
+    .abtus-soc-equ-container h2{
+        margin-bottom:1.5rem;
+    }
+    .abtus-soc-equ-content{
+        padding:1rem;
+        gap: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .abtus-soc-equ-row{
+        padding:1.5rem;
+    }
+    .abtus-soc-equ-container{
+        padding:2rem 1rem;
+    }
 }
 
 .abtus-whowhat-row{
@@ -104,6 +121,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding: 1rem;
+    gap: 1rem;
     flex: 1 1 40%;
     background-color: #592c22;
     box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
@@ -123,19 +141,19 @@
 }
 
 .abtus-whowhat-cont-left h2, .abtus-whowhat-cont-right h2{
-    padding: .5rem 0px;
+    padding: .5rem;
     text-align: center;
-    font-size: 1.5em;
+    font-size: clamp(1.2rem, 3.2vw, 1.5rem);
     border:#261610 ridge .25rem ;
     box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
-    margin: 0px 9.375rem;
+    margin: auto;
     background: #DCBFA6;
 
 }
 .abtus-whowhat-cont-left p, .abtus-whowhat-cont-right p{
     text-align: center;
     border:#261610 ridge .25rem ;
-    font-size: 1.2em;
+    font-size: clamp(1rem, 3.0vw,  1.2rem);
     line-height: 1.2em;
     background:#DCBFA6;
 }
@@ -147,6 +165,31 @@
 
 .abtus-whowhat-cont-right p{
     padding: 1.5625rem .9375rem;
+
+}
+@media screen and (max-width: 1120px){
+    .abtus-whowhat-cont-center img{
+        margin:.5rem;
+    }
+    .abtus-whowhat-cont{
+        display:flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .abtus-whowhat-cont-center{
+        text-align: center;
+    }
+
+    .abtus-whowhat-cont-center img{
+        margin:.5rem;
+        max-width: 25%;
+    }
+    .abtus-whowhat-cont-left p, .abtus-whowhat-cont-right p{
+        line-height: 1.15rem;
+        padding:1rem;
+    }
 
 }
 
@@ -171,7 +214,7 @@
     padding: 1.5625rem;
 }
 .abtus-ext-methods-center h3, .abtus-ext-methods-bottom h3{
-    font-size: 1.35em;
+    font-size: clamp(1.1rem, 3.5vw, 1.35rem);
     line-height: 1.3em;
     flex: 0 0 20%;
     margin: .5rem;
@@ -179,7 +222,8 @@
 }
 
 .abtus-ext-methods-center p, .abtus-ext-methods-bottom p{
-    font-size: 1.3em;
+    font-size: clamp(1rem, 3.3vw,  1.3rem);
+    /* font-size: 3.5vw; */
     line-height: 1.3em;
     flex: 0 0 70%;
     
@@ -190,10 +234,18 @@
     flex: 1 1 12%;
     padding: .625rem;
     text-align: center;
-    font-size: 1.4em;
+    font-size: clamp(1.2rem, 3.6vw, 1.4rem);
     background-color:#DCBFA6;
     border:#261610 ridge .25rem ;
     box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
+
+}
+
+@media screen and (max-width: 720px){
+    .abtus-ext-methods-row{
+        padding:2rem 2.5rem;
+    }
+
 
 }
 
@@ -225,7 +277,9 @@
 .abtus-founder-content{
     color: #261610;
     flex: 0 0 45%;
-    font-size: 1.3rem;
+    font-size:clamp(.9rem,3vw,1.3rem);
+    /* font-size:1rem; */
+    /* font-size:1.3rem; */
     line-height: 1.5rem;
     /* padding: 1.5rem; */
     text-align: center;
@@ -240,5 +294,28 @@
 .abtus-founder-content h2{
     text-decoration: underline;
     margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 1120px){
+    .abtus-founder-container{
+        flex-direction: column;
+        gap:1rem;
+    }
+
+    .abtus-founder-pic{
+        max-width: 60%;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width: 720px){
+    .abtus-founder-row{
+        padding:2rem;
+    }
+    .abtus-founder-content{
+        line-height: 1.3rem;
+    }
+
 }
 

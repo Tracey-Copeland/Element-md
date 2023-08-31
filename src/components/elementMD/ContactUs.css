@@ -7,3 +7,9 @@
     height:100%;
     width:40%;
 }
+
+@media screen and (max-width: 1220px){
+    .white-space{
+        width:15%;
+    }
+}

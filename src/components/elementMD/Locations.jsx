@@ -19,11 +19,8 @@ const Locations = () => {
                     <p>Site directories and locations are found below</p>
                     <ArrowDownwardIcon fontSize='large'/>
                 </div>
-
-
-                
-                    <iframe src="https://www.google.com/maps/d/embed?mid=1QiAtRCZxGfzSfFakeRRaeMKeHSIFUrc&ehbc=2E312F" 
-                    max-width="800" max-height="480" loading='lazy' className="location-despo-cont" title="Map of dispos"></iframe>
+                <iframe src="https://www.google.com/maps/d/embed?mid=1QiAtRCZxGfzSfFakeRRaeMKeHSIFUrc&ehbc=2E312F" 
+                    max-width="500"  max-height="400" loading='lazy' className="location-despo-cont" title="Map of dispos"></iframe>
             </div>
 
             <div className="locations-grid">
