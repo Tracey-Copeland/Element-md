@@ -49,6 +49,9 @@
         padding:1.5rem;
         line-height: 1.7em;
     }
+    .tet-container h2, .tet-container p{
+        margin: none;
+    }
 }
 
 @media screen and (max-width: 520px){
@@ -56,6 +59,8 @@
         padding:1rem;
         line-height: 1.5em;
     }
+
+    
 
 }
 
@@ -143,6 +148,10 @@ a{
 
     .top-row-col{
         padding:1rem;
+    }
+
+    .locations-grid{
+        padding: 1.25rem;
     }
 
 }

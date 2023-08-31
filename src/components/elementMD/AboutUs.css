@@ -303,6 +303,7 @@
     }
 
     .abtus-founder-pic{
+        max-height: 450px;
         max-width: 60%;
         margin: auto;
     }
