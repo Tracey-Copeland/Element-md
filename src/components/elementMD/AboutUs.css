@@ -303,7 +303,7 @@
     }
 
     .abtus-founder-pic{
-        max-height: 450px;
+        max-height: 400px;
         max-width: 75%;
         margin: auto;
     }
@@ -316,6 +316,10 @@
     }
     .abtus-founder-content{
         line-height: 1.3rem;
+    }
+
+    .abtus-founder-pic{
+        max-height: 300px;
     }
 
 }
