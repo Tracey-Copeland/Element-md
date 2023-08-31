@@ -38,9 +38,8 @@
 
 .abtus-soc-equ-container img{
     margin: auto;
-    flex: 1 1 40%;
-    max-width: 32rem;
-    max-height: 22rem;
+    flex: 0 0 20%;
+    width: clamp(200px, 50%, 500px);
     outline: #261610 ridge .25rem;
     box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
 }
@@ -49,13 +48,12 @@
     text-align: center;
     /* padding: 15px; */
     text-decoration: double underline;
-    font-size: 2.5em;
+    font-size: clamp(1.7rem, 2.8vw, 2.5rem);
     margin-bottom: 3.125rem;
 }
 
 .abtus-soc-equ-content{
     display: flex;
-    flex-wrap: wrap;
     /* text-align: center; */
     gap: 3.125rem;
     padding: 1.5625rem;
@@ -67,10 +65,21 @@
 }
 
 .abtus-soc-equ-content p {
-    font-size: 1.25em;
+    font-size: clamp(1rem, 2.4vw, 1.25rem);
     line-height: 1.5em;
     text-align: center;
     
+}
+
+@media screen and (max-width: 1160px){
+    .abtus-soc-equ-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .abtus-soc-equ-row{
+        padding: 3.125rem;
+    }
 }
 
 .abtus-whowhat-row{
@@ -85,7 +94,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    gap: 2.5rem;
+    gap: 2rem;
     justify-content: space-between;
     
 }
@@ -93,8 +102,8 @@
 .abtus-whowhat-cont-left, .abtus-whowhat-cont-right{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 1.5625rem;
+    justify-content: space-evenly;
+    padding: 1rem;
     flex: 1 1 40%;
     background-color: #592c22;
     box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
@@ -102,7 +111,7 @@
 }
 
 .abtus-whowhat-cont-center{
-    /* margin: auto; */
+    margin: auto;
     flex: 1 1 6%;
 }
 
@@ -114,7 +123,7 @@
 }
 
 .abtus-whowhat-cont-left h2, .abtus-whowhat-cont-right h2{
-    padding: .3125rem 0px;
+    padding: .5rem 0px;
     text-align: center;
     font-size: 1.5em;
     border:#261610 ridge .25rem ;
@@ -206,8 +215,8 @@
 
 .abtus-founder-pic{
     flex: 0 0 25%;
-    margin :2rem;
-    max-height: 500px;
+    margin :1rem 0;
+    max-height: 600px;
     border: #261610 ridge .25rem;
     box-shadow: 10px 10px 100px -26px rgba(0,0,0,0.75);
 
@@ -215,9 +224,9 @@
 
 .abtus-founder-content{
     color: #261610;
-    flex: 0 0 40%;
-    font-size: 1.15em;
-    line-height: 1.3em;
+    flex: 0 0 45%;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
     /* padding: 1.5rem; */
     text-align: center;
     display: flex;
@@ -230,5 +239,6 @@
 
 .abtus-founder-content h2{
     text-decoration: underline;
+    margin-bottom: 1.5rem;
 }
 
