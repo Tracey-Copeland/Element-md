@@ -31,7 +31,7 @@
 
 .brand-logo{
     padding: 1.5625rem;
-    flex: 1 1 20%;
+    flex: 0 0 20%;
     text-align: center;
 
 }
@@ -45,11 +45,10 @@
     justify-content: space-between;
     flex: 1 1 70%;
     padding: 1.5rem 5rem;
-    gap:1rem
+    gap:1rem;
 }
 
 .br-desc-title{
-    /* margin-bottom: 25px; */
     text-align: center;
     font-size: clamp(1.5rem, 2.7vw, 2.0rem );
     text-decoration: underline;
@@ -58,9 +57,7 @@
 .br-desc-words{
     text-align: center;
     font-size: clamp(1.2rem, 2.7vw, 1.6rem );
-    /* font-size: 1.6em; */
     line-height: 1.5em;
-    /* margin-bottom: 25px; */
 }
 
 @media screen and (max-width: 960px){
@@ -72,7 +69,7 @@
     .brand-logo{
         max-width: 450px;
         margin: auto;
-        padding:1.5rem 0;
+        padding:1.5rem;
     }
 
     .brands-HASH{
