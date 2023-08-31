@@ -191,6 +191,7 @@
 .abtus-founder-row{
     width: 100%;
     padding:2rem 5rem;
+    background-color: #261610;
     
 }
 
@@ -213,14 +214,16 @@
 }
 
 .abtus-founder-content{
+    color: #261610;
     flex: 0 0 40%;
-    font-size: 1.3em;
+    font-size: 1.15em;
     line-height: 1.3em;
     /* padding: 1.5rem; */
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding:1rem;
 
 
 }

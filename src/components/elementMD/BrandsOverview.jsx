@@ -18,11 +18,9 @@ const BrandsOv = () => {
 
             <div className="brands-container">
                 <div className="brands-lux brand-row">
-                    <div className="brand-logo">
 
-                        <img src="/images/LUX_logos_darkbrown.png" alt="LUX logo brown"/>
+                        <img className="brand-logo" src="/images/LUX_logos_darkbrown.png" alt="LUX logo brown"/>
 
-                    </div>
 
                     <div className="brand-description">
                         <h2 className="br-desc-title">Lux Artision Chocolates</h2>
